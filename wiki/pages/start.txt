@@ -1,0 +1,14 @@
+==== Welcome to CropWatch Knowledge Base ====
+Welcome to our Knowledge Base! We hope you can find all of the info you need here!
+{{:20240921_115300.jpg?400 |}}
+
+Here you will find the answers to many of the most frequently asked questions as well as a large variety of datasheets and examples regarding all of our systems from software to hardware and more.
+Please use the sidebar on the left to get started, or the search bar to find a specific article.
+If at any time you find there is a gap in our documentation, please click [[https://cropwatch.io/contact-us|Contact Us]] and make a suggestion.
+
+If you have a question for a larger group of people, or a question that is outside the scope of CropWatch's knowledge, please reach out in our [[https://forum.cropwatch.io|Forum]] where
+other users may be able to assist with their experiances.
+
+
+----------------
+
