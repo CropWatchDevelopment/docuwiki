@@ -147,9 +147,7 @@ NPKの測定方法は、土壌の電気伝導率を測定して推定されま�
         K: parseFloat(K.toFixed(2))
     };
   }
-  
-
-  * こちらのコードはパフォーマンス向上の為、アップデートされる可能性があります。[[https://github.com/CropWatchDevelopment/CropWatch/blob/develop/src/lib/components/ui/utilities/SoilToNPK.ts|GitHubページ]]
+  こちらのコードはパフォーマンス向上の為、アップデートされる可能性があります。[[https://github.com/CropWatchDevelopment/CropWatch/blob/develop/src/lib/components/ui/utilities/SoilToNPK.ts|GitHubページ]]
 
 ==== [コードの役割] ====
 
