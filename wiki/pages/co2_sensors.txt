@@ -38,7 +38,7 @@ SenseCAP LoRaWAN S2103センサーは、バッテリー駆動のIP66防水仕様
   * 解像度: 0.01 %RH  
   * 長期ドリフト: <0.25 %RH/年
 
-====== [一般仕様]  ======  
+==== [一般仕様]   ====
   * メーカー: seeed studio 
   * 製品名: SenseCAP S2103 LoRaWAN® CO2, Temperature, and Humidity Sensor for Outdoor & Indoor Air Quality, CO2 Meter, Carbon Emission 
   * 製品モデル: S2103  
