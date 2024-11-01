@@ -81,54 +81,54 @@ NPKの測定方法は、土壌の電気伝導率を測定して推定されま�
 電気伝導率の値を基に、土壌中のNPKの含有量を推定します。ただし、この方法は直接NPKそのものを測定するわけではなく、NPKを含むイオンの総量を測定するため、ある程度の推定や経験則に基づいた計算が必要になります。具体的には、測定された電気伝導率の値に基づいて、以下の換算式を使ってNPKの量を算出します。当社では、より精度の高い値を算出する為、いくつかの設定を行っています。
 
 ==== [NPK測定の換算式] ====
-<Code:none>
-export type SoilType = "Sandy" | "Loamy" | "Clay" | "Silty" | "Peaty" | "Chalky" | "Saline";
-export interface SoilParams {
-    temperature: number;
-    moisture: number;
-    ec: number; // in μS/cm
-    ph: number; // pH level
-    soilType: SoilType; // Type of soil
-    actual_n ? : number; // Nitrogen (N) value from lab report (optional)
-    actual_p ? : number; // Phosphorus (P) value from lab report (optional)
-    actual_k ? : number; // Potassium (K) value from lab report (optional)
-    n_months_ago ? : number;
-}
-export function estimateNPK({
-    temperature,
-    moisture,
-    ec,
-    ph,
-    soilType,
-    actual_n,
-    actual_p,
-    actual_k,
-    n_months_ago
-}: SoilParams): {
-    N: number;P: number;K: number
-} {
-    let ecAdjustmentFactor: number;
-    switch (soilType) {
-        case "Sandy":
-            ecAdjustmentFactor = 1.1;
+   
+    export type SoilType = "Sandy" | "Loamy" | "Clay" | "Silty" | "Peaty" | "Chalky" | "Saline";
+    export interface SoilParams {
+        temperature: number;
+        moisture: number;
+        ec: number; // in μS/cm
+        ph: number; // pH level
+        soilType: SoilType; // Type of soil
+        actual_n ? : number; // Nitrogen (N) value from lab report (optional)
+        actual_p ? : number; // Phosphorus (P) value from lab report (optional)
+        actual_k ? : number; // Potassium (K) value from lab report (optional)
+        n_months_ago ? : number;
+    }
+    export function estimateNPK({
+        temperature,
+        moisture,
+        ec,
+        ph,
+        soilType,
+        actual_n,
+        actual_p,
+        actual_k,
+        n_months_ago
+    }: SoilParams): {
+        N: number;P: number;K: number
+    } {
+        let ecAdjustmentFactor: number;
+        switch (soilType) {
+            case "Sandy":
+                ecAdjustmentFactor = 1.1;
             break;
-        case "Loamy":
-            ecAdjustmentFactor = 1.0;
+            case "Loamy":
+                ecAdjustmentFactor = 1.0;
             break;
-        case "Clay":
-            ecAdjustmentFactor = 0.85;
+            case "Clay":
+                ecAdjustmentFactor = 0.85;
             break;
-        case "Silty":
-            ecAdjustmentFactor = 0.9;
+            case "Silty":
+                ecAdjustmentFactor = 0.9;
             break;
-        case "Peaty":
-            ecAdjustmentFactor = 1.1;
+            case "Peaty":
+                ecAdjustmentFactor = 1.1;
             break;
-        case "Chalky":
-            ecAdjustmentFactor = 0.9;
+            case "Chalky":
+                ecAdjustmentFactor = 0.9;
             break;
-        case "Saline":
-            ecAdjustmentFactor = 0.6;
+            case "Saline":
+                ecAdjustmentFactor = 0.6;
             break;
         default:
             ecAdjustmentFactor = 1.0; // Default to no adjustment if not specified
@@ -146,8 +146,8 @@ export function estimateNPK({
         P: parseFloat(P.toFixed(2)),
         K: parseFloat(K.toFixed(2))
     };
-}
-<Code>
+  }
+  
 
   * こちらのコードはパフォーマンス向上の為、アップデートされる可能性があります。[[https://github.com/CropWatchDevelopment/CropWatch/blob/develop/src/lib/components/ui/utilities/SoilToNPK.ts|GitHubページ]]
 
