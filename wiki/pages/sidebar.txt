@@ -2,7 +2,7 @@
 
   * [[start|🏠 HOME]]
 
-**User Interface**
+**🖥️ User Interface**
   * [[user_interface|🖥️ User Interface]]
   * [[Add location|📖 How to make a new location]]
   * [[Permissions|🔒 Permissions]]
@@ -13,7 +13,7 @@
 
 ----
 
-**Sensors**
+**🌱 Sensors**
   * [[soil_sensors|Soil Sensors]]
   * [[co2_sensors|CO2 Sensors]]
   * [[lorawan|LoRaWAN]]
@@ -32,8 +32,8 @@
 
 ----
 
-**Developer**
-  * [[:API]]
+**🛠️ Developer**
+  * [[:🔌 API]]
   * [[:Request_Access_Keys]]
 
 ----
