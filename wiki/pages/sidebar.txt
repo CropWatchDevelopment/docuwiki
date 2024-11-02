@@ -1,6 +1,6 @@
 ~~NOCACHE~~
 
-[[start|HOME]]
+  * [[start|🏠 HOME]]
 
 **User Interface**
   * [[user_interface|User Interface]]
