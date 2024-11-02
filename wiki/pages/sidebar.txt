@@ -4,7 +4,7 @@
   * [[user_interface|User Interface]]
   * [[Rules|Rules]]
   * [[Permissions|Permissions]]
-  * [[|Alert]アラート設定]
+  * [[Alert|アラート設定]]
   * [[Rules|Rules]]
   * [[Permissions|Permissions]]
 
