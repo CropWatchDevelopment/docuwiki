@@ -1,5 +1,7 @@
 ~~NOCACHE~~
 
+[[start|HOME]]
+
 **User Interface**
   * [[user_interface|User Interface]]
   * [[Rules|Rules]]
