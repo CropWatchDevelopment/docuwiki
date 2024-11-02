@@ -12,4 +12,4 @@ other users may be able to assist with their experiances.
 
 ----------------
 
-<nspages>
+<nspages -textPages="All pages in our knowledge base">
