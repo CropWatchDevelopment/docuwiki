@@ -4,6 +4,9 @@
   * [[user_interface|User Interface]]
   * [[Rules|Rules]]
   * [[Permissions|Permissions]]
+  * [[user_interface|User Interface]]
+  * [[Rules|Rules]]
+  * [[Permissions|Permissions]]
 
 ----
 
