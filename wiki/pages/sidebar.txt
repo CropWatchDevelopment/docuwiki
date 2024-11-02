@@ -4,7 +4,7 @@
 
 **🖥️ User Interface**
   * [[user_interface|🖥️ User Interface]]
-  * [[Add location|📖 How to make a new location]]
+  * [[Add location|🚧 How to make a new location]]
   * [[Permissions|🔒 Permissions]]
   * [[Alert|🚨 アラート設定]]
   * [[Add sensor|🆕 How to make a new sensor]]
