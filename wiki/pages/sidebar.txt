@@ -14,10 +14,10 @@
 ----
 
 **🌱 Sensors**
-  * [[soil_sensors|Soil Sensors]]
-  * [[co2_sensors|CO2 Sensors]]
-  * [[lorawan|LoRaWAN]]
-  * [[lorawan_gateways|LoRaWAN Gateways]]
+  * [[soil_sensors|🏞️ Soil Sensors]]
+  * [[co2_sensors|☁️ CO2 Sensors]]
+  * [[lorawan|📡 LoRaWAN]]
+  * [[lorawan_gateways|🛜 LoRaWAN Gateways]]
 
 ----
 
@@ -34,7 +34,7 @@
 
 **🛠️ Developer**
   * [[:🔌 API]]
-  * [[:Request_Access_Keys]]
+  * [[:🔑 Request_Access_Keys]]
 
 ----
 
