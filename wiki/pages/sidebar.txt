@@ -7,8 +7,8 @@
   * [[Add location|📖 How to make a new location]]
   * [[Permissions|🔒 Permissions]]
   * [[Alert|🚨 アラート設定]]
-  * [[Add sensor|⚡ How to make a new sensor]]
-  * [[Move sensor|⚡ How to move a sensor]]
+  * [[Add sensor|🆕 How to make a new sensor]]
+  * [[Move sensor|🚚 How to move a sensor]]
   * [[Permissions|🔒 Permissions]]
 
 ----
