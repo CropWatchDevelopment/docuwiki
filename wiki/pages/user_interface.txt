@@ -1,2 +1,12 @@
 ====  ユーザー登録  ====
 ユーザーインターフェース（データ閲覧画面）を使用する為には、各ユーザーの新規登録が必要となります。[[https://app.cropwatch.io/auth/register|新規登録]]から登録を行って下さい。新規登録完了後、当社システムへの設定ができ次第**責任者**の機器（携帯やパソコン）よりデータが確認出来るようになります。他のユーザーもデータを閲覧したい場合は、責任者より権限を付与する必要があります。
+
+  * **ステップ１：メールアドレスとパスワードを入力**
+
+メール条件
+Emails MUST conform to the Email Standard: RFC2822
+パスワード条件
+All pastwords must be a minimum of 6 characters.
+All passwords must have at least one letter A-Z and at least one number 0-9
+* **ステップ２：確認画面をクリック**
+新規登録完了後、設定したメールアドレスあてに確認メールを送信します。クリックし、登録が完了します。新規登録を行った機器と確認メールを受け取る機器は同じものである必要があります。
