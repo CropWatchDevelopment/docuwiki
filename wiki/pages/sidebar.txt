@@ -36,6 +36,10 @@
 ----
 
 **Helpful Links**
+
+  * [[:directory|Full Directory of Pages]]
+
+----
   * [[https://cropwatch.io|CropWatch Website]]
   * [[https://app.cropwatch.io|CropWatch UI]]
   * [[https://cropwatch.io/contact-us|Contact Us form]]
