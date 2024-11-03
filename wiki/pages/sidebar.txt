@@ -10,7 +10,7 @@
   * [[Add sensor|🆕 How to make a new sensor]]
   * [[Move sensor|🚚 How to move a sensor]]
   * [[Permissions|🔒 Permissions]]
-  * [[トラブルシューティング|🔒 トラブルシューティング]]
+  
 
 ----
 
@@ -19,6 +19,7 @@
   * [[co2_sensors|☁️ CO2 Sensors]]
   * [[lorawan|📡 LoRaWAN]]
   * [[lorawan_gateways|🛜 LoRaWAN Gateways]]
+  * [[トラブルシューティング|🔒 トラブルシューティング]]
 
 ----
 
