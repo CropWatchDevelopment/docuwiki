@@ -29,3 +29,6 @@ it may indicate a problem with the sensor.
 Next, you will find the specific sensor name, and a non-exostive list of important data points. To view ALL datapoints that the sensor returns, Click the arrow on the far right of the sensor list item.
 
 ===== Expanded Sensor Items =====
+Once Expanded, the Sensor will look like the below image.
+
+{{:dashboardsensoritem.png?400 |example}} All of the sensor's data will be available, and there will be a button that will bring you to the Sensor Detail page for that specific sensor.
