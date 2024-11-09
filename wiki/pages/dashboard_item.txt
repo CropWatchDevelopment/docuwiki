@@ -1,0 +1,27 @@
+====== Dashboard Items ======
+
+Our UI is made up of one Dashboard that displays multiple Locations.
+A Location is a way to group together sensors in a logical way.
+
+Examples of a location may be:
+  * A greenhouse containing 6 soil sensors, a CO² sensor, and a Lux Sensor.
+  * A Hotel Floor where the Floor is the location, and each room has a Temperature and Humidity sensor.
+  * An office building with multiple sensors.
+
+Lets have a look at a "Demo Location":
+
+{{:dashboarditem.png?400 |}} As you can see, there are multiple sections to a location.
+First, lets look at the top, you will see an outdoors Temperature. In this case it is 18°C.
+On the right, you will find the current Rainfall, Humidity, and Wind Speed. These data points
+are pulled from your local weather station.
+
+*IF you have a Weather Station provided by us, the top weather data will be replaced by your location's weather station data.
+
+Next down, we have the name of your location. In this case it is "Kevin's House" on the left, followed by a Blue Arrow button that will bring you to the
+"Location Detail" page.
+
+After the name, you will find a list of sensors.
+Your List of sensors will have a GREEN or RED stripe on the far left, this indicates if your sensor has recently sent data. If the color indicator is displaying RED then
+it may indicate a problem with the sensor.
+
+Next, you will find the specific sensor name, and a non-exostive list of important data points. To view ALL datapoints that the sensor returns, Click the arrow on the far right of the sensor list item.
