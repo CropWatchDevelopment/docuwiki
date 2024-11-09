@@ -10,6 +10,7 @@
   * [[Add sensor|🆕 How to make a new sensor]]
   * [[Move sensor|🚚 How to move a sensor]]
   * [[Permissions|🔒 Permissions]]
+  * [[Dashboard Item|🎛️ Dashboard Item]]
   
 
 ----
