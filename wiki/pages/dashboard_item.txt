@@ -1,4 +1,4 @@
-====== Dashboard Items ======
+====== Dashboard ======
 
 Our UI is made up of one Dashboard that displays multiple Locations.
 A Location is a way to group together sensors in a logical way.
@@ -7,6 +7,8 @@ Examples of a location may be:
   * A greenhouse containing 6 soil sensors, a CO² sensor, and a Lux Sensor.
   * A Hotel Floor where the Floor is the location, and each room has a Temperature and Humidity sensor.
   * An office building with multiple sensors.
+
+===== Dashboard Items =====
 
 Lets have a look at a "Demo Location":
 
@@ -25,3 +27,5 @@ Your List of sensors will have a GREEN or RED stripe on the far left, this indic
 it may indicate a problem with the sensor.
 
 Next, you will find the specific sensor name, and a non-exostive list of important data points. To view ALL datapoints that the sensor returns, Click the arrow on the far right of the sensor list item.
+
+===== Expanded Sensor Items =====
